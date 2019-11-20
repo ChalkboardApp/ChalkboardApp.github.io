@@ -1,0 +1,427 @@
+/* UNIVERSAL */
+/* UNIVERSAL */
+/* UNIVERSAL */
+
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../img/chalkboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+/* NAV BAR */
+/* NAV BAR */
+/* NAV BAR */
+
+.navbar {
+  overflow: hidden;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  margin: 0;
+  position: -webkit- fixed;
+  position: -moz- fixed;
+  padding: none;
+  border: 0;
+  white-space: 0;
+  border-spacing: 0;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 14px 16px;
+  background-color: #f9f9f9;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #e5e5e5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #e5e5e5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headerText {
+  color: #535353;
+  font-size: 150%;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+.active {
+  background-color: #e5e5e5;
+}
+
+/* SECTION 1 */
+/* SECTION 1 */
+/* SECTION 1 */
+
+#sect1 {
+  display: table;
+  margin: auto;
+  width: 100%;
+  height: 90%;
+  top: 0;
+}
+
+.centreContent {
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  padding: 0 20% 0 20%;
+}
+
+.chalkFontHeader {
+  font-family: "Indie Flower", cursive;
+  color: white;
+  font-size: 300%;
+}
+
+#sect1,
+p {
+  color: white;
+  font-size: 150%;
+  text-align: justify;
+}
+
+.getStarted {
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: color 2s, border 2s;
+}
+
+.getStarted,
+a {
+  text-decoration: none;
+  color: white;
+  font-style: none;
+  transition: color 1s, border 2s;
+}
+
+.getStarted:hover {
+  border: 2px solid #cf88ff;
+  text-shadow: #000 2px;
+  cursor: pointer;
+}
+
+/* DOWNLOAD PAGE */
+/* DOWNLOAD PAGE */
+/* DOWNLOAD PAGE */
+
+.leftButton {
+  margin-right: 7.5%;
+}
+
+#downloadInstructions {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2% 2% 0 2%;
+}
+
+.downloadText {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.downloadImgs {
+  max-width: 13%;
+  display: inline;
+}
+
+.marginRightImg {
+  margin-right: 2%;
+}
+
+/* RESPONSIVE STYLING */
+/* RESPONSIVE STYLING */
+/* RESPONSIVE STYLING */
+
+@media (max-width: 768px) {
+  /* UNIVERSAL */
+  /* UNIVERSAL */
+  /* UNIVERSAL */
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-image: url("../img/chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+  }
+
+  /* NAV BAR */
+  /* NAV BAR */
+  /* NAV BAR */
+
+  .navbar {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    margin: 0;
+    position: -webkit- fixed;
+    position: -moz- fixed;
+    padding: none;
+    border: 0;
+    white-space: 0;
+    border-spacing: 0;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: #e5e5e5;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #e5e5e5;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .headerText {
+    color: #535353;
+    font-size: 150%;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+  }
+
+  .active {
+    background-color: #e5e5e5;
+  }
+
+  /* SECTION 1 */
+  /* SECTION 1 */
+  /* SECTION 1 */
+
+  #sect1 {
+    display: table;
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    top: 0;
+  }
+
+  .centreContent {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    padding: 0 10% 0 10%;
+  }
+
+  .chalkFontHeader {
+    font-family: "Indie Flower", cursive;
+    color: white;
+    font-size: 200%;
+  }
+
+  #sect1,
+  p {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .getStarted {
+    background-color: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: color 2s, border 2s;
+  }
+
+  .getStarted,
+  a {
+    text-decoration: none;
+    color: white;
+    font-style: none;
+    transition: color 1s, border 2s;
+  }
+
+  .getStarted:hover {
+    border: 2px solid #cf88ff;
+    text-shadow: #000 2px;
+    cursor: pointer;
+  }
+
+  /* DOWNLOAD PAGE */
+  /* DOWNLOAD PAGE */
+  /* DOWNLOAD PAGE */
+
+  .leftButton {
+    margin-right: 7.5%;
+  }
+
+  .downloadImgSize {
+    display: relative;
+    width: 60%;
+  }
+
+  #downloadInstructions {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 2% 0 2%;
+  }
+
+  .downloadText {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+  }
+
+  .downloadImgs {
+    width: 0%;
+    display: relative;
+  }
+
+  .marginRightImg {
+    margin-right: 2%;
+    width: 80%;
+  }
+}
